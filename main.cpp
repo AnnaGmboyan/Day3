@@ -2,7 +2,7 @@
 
 
 int Fact(int);
-
+int factt(int);
 
 int main()
 {
@@ -13,7 +13,10 @@ int main()
 	std::cout << Fact(num + 2) << std::endl;
 	return 0;
 }
-
+int factt(int) 
+{
+	return 122;
+}
 int Fact(int n) 
 {
 	return (n +1)*10;

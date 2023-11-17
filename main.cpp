@@ -1,6 +1,8 @@
 #include <iostream>
 
+
 int Fact(int);
+
 
 int main()
 {

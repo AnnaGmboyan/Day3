@@ -1,15 +1,15 @@
 #include <iostream>
 
-int fact(int);
+int Fact(int);
 
 int main()
 {
 	int num = 5;
-	std::cout << fact(num) << std::endl;
+	std::cout << Fact(num) << std::endl;
 	return 0;
 }
 
-int fact(int n) 
+int Fact(int n) 
 {
-	return n*10;
+	return (n +1)*10;
 }

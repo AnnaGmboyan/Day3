@@ -1,15 +1,16 @@
 #include <iostream>
 
-int fact(int);
+int Factorial(int);
+
 
 int main()
 {
 	int num = 5;
-	std::cout << fact(num) << std::endl;
+	std::cout << Factorial(num) << std::endl;
 	return 0;
 }
 
-int fact(int n) 
+int Factorial(int n) 
 {
 	return n*10;
 }

@@ -8,6 +8,8 @@ int main()
 {
 	int num = 5;
 	std::cout << 10 < std::endl;
+
+	std::cout << 18 < std::endl;
 	std::cout << 155555 < std::endl;
 	std::cout << Fact(num) << std::endl;
 	std::cout << Fact(num + 2) << std::endl;
